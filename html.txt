@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flashcards</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="naglowek"> <h1>Za co odpowiada dana część silnika?</h1> </div>
+
+<div class = "wszystkie_karty">
+    <div class = "obrot">
+    <div class= "karta karta1">
+
+        <div class = "name"><p>Głowica</p></div>
+        <div class = "tyl" ><p>Zamyka przestrzeń roboczą nad blokiem cylindrowym.</p></div>
+            </div>
+    </div>
+    <div class = "obrot">
+    <div class = "karta kart2">
+        <div class = "name"> <p>Tłok</p></div>
+        <div class = "tyl" > <p>Wykorzystywany do odbierania energii mechanicznej spalanej mieszanki</p></div>
+    </div>
+    </div>
+    <div class = "obrot">
+    <div class = "karta karta3">
+        <div class = "name"><p>Wał korbowy</p></div>
+        <div class = "tyl" ><p>Służy zwykle do zamiany ruchu posuwisto-zwrotnego na obrotowy</p></div>
+    </div>
+    </div>
+    <div class = "obrot">
+    <div class = "karta karta4">
+        <div class = "name"><p>łancuch <br> napędowy</p></div>
+        <div class = "tyl" > <p>cięgno składające się z pewnej liczby podobnych do siebie ogniw złączonych ze sobą.</p></div>
+    </div>
+    </div>
+    <div class = "obrot">
+    <div class = "karta karta5">
+        <div class = "name"> <p>Turbospreżarka</p></div>
+        <div class = "tyl" > <p>Zwiększa sprawność i moc silnika przez wtłoczenie dodatkowego powietrza do komory spalania.</p></div>
+    </div>
+    </div>
+    <div class = "obrot">
+    <div class = "karta karta6">
+        <div class = "name"><p>Pompa wodna</p></div>
+        <div class = "tyl" >  <p>Odpowiada za chłodzenie silnika</p></div>
+    </div>
+    </div>
+    <div class = "obrot">
+    <div class = "karta karta7">
+        <div class = "name"><p>Pompa oleju</p></div>
+        <div class = "tyl" > <p>Wymusza obieg oleju w silniku</p></div>
+    </div>
+    </div>
+    <div class = "obrot">
+    <div class = "karta karta8">
+        <div class = "name"> <p>Przetwornik podcisnienia</p></div>
+        <div class = "tyl" > <p>Zawór, którego zadaniem jest sterowanie ciśnieniem sprężonego powietrza w układzie</p></div>
+    </div>
+    </div>
+    <div class = "obrot">
+    <div class = "karta karta9">
+        <div class = "name"> <p>Pasek rozrządu</p></div>
+        <div class = "tyl" > <p>Wałek krzywkowy używany w czterosuwowych silnikach tłokowych do sterowania zaworam</p></div>
+    </div>
+    </div>
+
+</div>
+
+</body>
+</html>

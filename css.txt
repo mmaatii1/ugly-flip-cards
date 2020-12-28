@@ -1,0 +1,76 @@
+.karta{
+    border-radius: 15px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: rgb(255, 163, 26);
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    z-index: 2;
+
+
+
+
+}
+.wszystkie_karty{
+    width: 750px;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    flex-wrap: wrap;
+    margin-left: auto; margin-right: auto;
+    margin-top: 200px;
+    align-items: center;
+    perspective: 800px;
+
+
+
+
+
+
+}
+
+.obrot:hover .karta{
+    transform: rotateY( 180deg ) ;
+    transition: transform 0.5s;
+
+}
+.tyl{
+    transform: rotateY(180deg);
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 14px;
+    height:100%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.naglowek{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-size: 64px;
+ color:	rgb(255, 163, 26);
+
+
+
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+    color: 	rgb(242, 242, 242);
+    text-after-overflow: wrap;
+    backface-visibility: hidden;
+
+}
+html{
+    background: rgb(219,207,205);
+    background: linear-gradient(0deg, rgba(219,207,205,1) 0%, rgba(144,142,141,1) 100%);
+}
+
