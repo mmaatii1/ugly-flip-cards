@@ -1,13 +1,17 @@
 .karta{
     border-radius: 15px;
-    text-align: center;
+
     width: 200px;
     height: 200px;
     margin: 20px;
-    background-color: rgb(255, 163, 26);
+    background-color: white;
     transition: transform 1s;
     transform-style: preserve-3d;
     z-index: 2;
+    align-items: center;
+
+    justify-content: center;
+    text-align: center;
 
 
 
@@ -40,7 +44,7 @@
 .tyl{
     transform: rotateY(180deg);
     font-family: 'Oswald', sans-serif;
-    color: white;
+    color: #f64c72;
     font-size: 14px;
     height:100%;
     width: 100%;
@@ -48,6 +52,7 @@
     align-items: center;
     justify-content: center;
     z-index: 1;
+    display: block;
 }
 
 .naglowek{
@@ -56,7 +61,7 @@
     text-align: center;
     font-family: 'Bangers', cursive;
     font-size: 64px;
- color:	rgb(255, 163, 26);
+ color:	#f64c72;
 
 
 
@@ -64,13 +69,19 @@
 .name{
     font-size: 30px;
     font-weight: bold;
-    color: 	rgb(242, 242, 242);
-    text-after-overflow: wrap;
+    color: #f64c72;
+
     backface-visibility: hidden;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    bottom: auto;
+    top: auto;
+    left: auto;
+    right: auto;
+
 
 }
 html{
-    background: rgb(219,207,205);
-    background: linear-gradient(0deg, rgba(219,207,205,1) 0%, rgba(144,142,141,1) 100%);
+    background: #2f2fa2;
 }
-
